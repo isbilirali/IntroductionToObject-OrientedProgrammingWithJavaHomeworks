@@ -13,20 +13,21 @@ a. Test sınıfının main metodunda gerekli testleri yazın.
 public class Test {
 
     static void main() {
-//        Password password = new PasswordBuilder().setLength(3).add('b').add('j').add('k').build();
-//        System.out.println("Created password : " + new String(password.getPassword()) );
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("This program creates a basic password and takes characters one by one from user. ");
-        System.out.print("How many characters will be? : ");
-        int length = scanner.nextInt();
-        PasswordBuilder pb = new PasswordBuilder().setLength(length);
-        for(int i = 0 ; i<length ; i++){
-            System.out.print(i+1 + ". character : ");
-            char c = scanner.next().charAt(0);
-            pb.add(c); //calling for side-effect
-        }
-        Password p = pb.build();
-        System.out.println("Created password : " + new String(p.getPassword()) );
+        Password password = new PasswordBuilder().setLength(3).add('b').add('j').add('k').build();
+        System.out.println("Created password : " + new String(password.getPassword()) );
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("This program creates a basic password and takes characters one by one from user. ");
+//        System.out.print("How many characters will be? : ");
+//        int length = scanner.nextInt();
+//        PasswordBuilder pb = new PasswordBuilder().setLength(length);
+//        for(int i = 0 ; i<length ; i++){
+//            System.out.print(i+1 + ". character : ");
+//            char c = scanner.next().charAt(0);
+//            pb.add(c); //calling for side-effect
+//        }
+//        Password p = pb.build();
+//        System.out.println("Created password : " + new String(p.getPassword()) );
     }
 }
