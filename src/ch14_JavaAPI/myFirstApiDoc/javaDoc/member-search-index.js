@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ch14_JavaAPI.myFirstApiDoc","c":"Average","l":"Average()","u":"%3Cinit%3E()","k":"3"},{"p":"ch14_JavaAPI.myFirstApiDoc","c":"Average","l":"calculateAverage(double[])"},{"p":"ch14_JavaAPI.myFirstApiDoc","c":"Average","l":"calculateAverage(int[])"}];updateSearchResults();
